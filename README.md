@@ -6,10 +6,10 @@ Backend environment for store product
 __Author:__ [@GuerraS](https://github.com/GuerraS)
 
 >![Static Badge](https://img.shields.io/badge/Feature-green)
-> - Invoice Services
+> - rename extension name in configuration files to yml
 
 > ![Static Badge](https://img.shields.io/badge/Fix-red)
-> - Initialization of h2 data.sql file
+> 
 
 > ![Static Badge](https://img.shields.io/badge/Update-blue)
 
