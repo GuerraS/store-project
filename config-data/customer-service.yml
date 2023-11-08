@@ -1,4 +1,3 @@
-
 spring:
   h2:
     console:
@@ -22,7 +21,7 @@ spring:
     config:
       label: my-branch
 server:
-  port: 8890
+  port: 8887
   error:
     include-message: always
     include-binding-errors: on-param
