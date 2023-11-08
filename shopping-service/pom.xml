@@ -5,14 +5,15 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.6</version>
+		<version>3.0.6-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ed</groupId>
-	<artifactId>store-product</artifactId>
+	<artifactId>shopping</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>store-product</name>
-	<description>Store product</description>
+	<packaging>war</packaging>
+	<name>shopping-service</name>
+	<description>Service for shopping process</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
@@ -89,7 +90,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<build>
 		<plugins>
 			<plugin>

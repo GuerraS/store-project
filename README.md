@@ -2,20 +2,33 @@
 Backend environment for store product
 
 ## Current version
->__v0.0.1__  
-__Author:__ [@GuerraS](https://github.com/GuerraS)  
-__Description:__ First commit: Added product and customer microservice.
-__Date:__ 30-08-2023 
+>__v1.0.1__  
+__Author:__ [@GuerraS](https://github.com/GuerraS)
 
-## Features
+>![Static Badge](https://img.shields.io/badge/Feature-green)
+> - Invoice Services
+
+> ![Static Badge](https://img.shields.io/badge/Fix-red)
+> - Initialization of h2 data.sql file
+
+> ![Static Badge](https://img.shields.io/badge/Update-blue)
 
 ## Technical configuration
 
 - __IDE:__ Spring Tools Suite 4
 - __Lenguaje:__ Java 17 Spring Boot
-- __Librarie:__ 
-    - Lombok
-    - Swagger
+- __Libraries:__ 
+### Internal
+|Name|Version|
+|:--------|:--------:|
+|ErrorMessage|1.0.0.0|
+|ObjectFormatter|1.0.0.0|
+
+### External
+|Name|Version|
+|:--------|:--------:|
+|Lombook|unknown|
+|Swagger|1.0.0.0|
 ## Documentación
 - You can support yourself using __swagger__ api interface
 -------------
